@@ -1,0 +1,11 @@
+const arr = ["a", "b", "c", "d", "e", "f", "g", "h"];
+const arr1 = ["c", "f", "m"];
+const newArr = arr.slice(1);
+console.log(newArr);
+const spliceArr = arr.splice(4, 1, "a");
+console.log(spliceArr);
+console.log(arr);
+const arrJoin = arr.join();
+console.log(arrJoin);
+const arrConcat = arr.concat(arr1);
+console.log(arrConcat);
